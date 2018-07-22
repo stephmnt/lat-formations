@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly bt-alt">Je me forme</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles-home.html %}
+
+        <!-- Two -->
+        <section id="two" class="bg-alt">
+            <div class="inner">
+                <header class="major">
+                    <h2>Découvre notre approche innovante</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next bt-alt">Je me forme</a></li>
+                </ul>
+            </div>
+        </section>
+
+<div style="clear:both"></div>
+
+        <!-- Three -->
+        <section id="three">
+            <div class="inner">
+                <header class="major">
+                    <h2>Ils nous font confiance</h2>
+                </header>
+                <p>Caroussel ici</p>
+            </div>
+        </section>
+
+<div style="clear:both"></div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

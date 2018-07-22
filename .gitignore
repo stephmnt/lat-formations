@@ -1,4 +1,8 @@
 _site/
 .sass-cache/
-.jekyll-cache/
+tiles/
 .jekyll-metadata
+Gemfile.lock
+*.gem
+*.gemspec
+TODO
