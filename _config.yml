@@ -3,13 +3,13 @@ title: Manet
 subtitle: Formations et conseil
 email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
-street_address: 22, rue Bernard Dimey
-city: Paris
-zip_code: 75018
-country: France
+auteur: Stéphane Manet
+adresse: 22, rue Bernard Dimey
+ville: Paris
+code_postal: 75018
+pays: France
 phone: 06 51 51 19 40
 
 # homepage tiles
@@ -24,13 +24,14 @@ form_email_name: _replyto # value of the "name" attribute in the "email" field
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+gitlab_url: https://git.libre-a-toi.org
+googleplus_url: https://plus.google.com/
 instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.linkedin.com
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/
+messenger_url: https://messenger.com
 
 # build settings
 markdown: kramdown

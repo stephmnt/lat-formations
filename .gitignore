@@ -4,5 +4,4 @@ tiles/
 .jekyll-metadata
 Gemfile.lock
 *.gem
-*.gemspec
 TODO

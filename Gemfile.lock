@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    forty_jekyll_theme (1.2)
+    lat_formation (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -63,8 +63,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
-  forty_jekyll_theme!
   jekyll (~> 3.3)
+  lat_formation!
 
 BUNDLED WITH
    1.16.3
