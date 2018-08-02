@@ -1,7 +1,7 @@
 # site settings
-title: Manet
-subtitle: Formations et conseil
-email: youremailaddress@gmail.com
+title: Opencast
+subtitle: Formations
+email: stephane@libre-a-toi.org
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
@@ -24,7 +24,7 @@ form_email_name: _replyto # value of the "name" attribute in the "email" field
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: https://git.libre-a-toi.org
+gitlab_url: https://git.libre-a-toi.org/lat-formations
 googleplus_url: https://plus.google.com/
 instagram_url: https://instagram.com
 linkedin_url: https://www.linkedin.com

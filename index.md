@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Accueil
-landing-title: 'Manet, Conseil et formations'
+landing-title: 'OpenCast Formations'
 description: null
 image: null
 author: null

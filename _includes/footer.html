@@ -31,10 +31,6 @@
 				{% if site.slack_url %}
 				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
 				{% endif %}
-				{% if site.messenger_url %}
-				<li><a href="{{ site.messenger_url }}" class="icon alt fab fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-				{% endif %}
-
 				{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
@@ -51,11 +47,10 @@
 				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
 				{% endif %}
 
-
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Fais avec <i class="fa fa-heart"></i> par <a href="https://stephma.net" target="_blank">{{ site.auteur }}</a></li>
+				<li>Fais avec <i class="fa fa-heart"></i> et <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> par <a href="https://stephma.net" target="_blank">{{ site.auteur }}</a></li>
 				<li><a href="/mentions-legales.html">Mentions légales</a></li>
 			</ul>
 		</div>
