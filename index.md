@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: landing
 title: Accueil
 landing-title: 'OpenCast Formations'
 description: null
