@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-
     {% include head.html %}
 
     <body>
@@ -19,10 +13,14 @@
                 </span>
                 <header class="major">
 
-                    <h1>{{ page.title }}</h1>
-
+                    <h1>{{ page.landing-title }}</h1>
+                    <p style="text-transform: uppercase;">{{ site.description }}</p>
                 </header>
                 <div class="content">
+
+                      <ul class="actions">
+                          <li><a href="#one" class="button next scrolly bt-alt">Je me forme</a></li>
+                      </ul>
 
                   <!-- Main -->
                   <div id="main">
@@ -33,39 +31,82 @@
             </div>
         </section>
 
-        <!-- One -->
-        <section id="one">
+        <!-- Section 1 - à propos -->
+        <section id="section1">
           <div class="inner">
             <header class="major">
-              <h2>Sed amet aliquam</h2>
+              <h2>Nous lançons Opencast !</h2>
             </header>
             <p>{{ content }}</p>
           </div>
         </section>
 
-        <!-- One -->
-        <section id="two" class="bg-alt">
+        <!-- Section 2 - Newsletter -->
+        <section id="section2" class="bg-alt">
           <div class="inner">
             <header class="major">
-              <h2></h2>
+              <h2>Soyez informé</h2>
             </header>
-            <p></p>
+            <p>Indiquez votre email pour être invité à l'inauguration et recevoir les premières actus. <br />Nous n'abusons pas des emails et vous pourrez vous désinscrire à tout moment.</p>
+            <div class="row">
+  			      <form action="{{ site.newsletter_url }}" method="POST" style="width:100%">
+                <div class="field half" style="padding:0">
+                  <input type="text" name="{{ site.form_email_name }}" id="email" />
+                </div>
+                <div class="field half">
+                  <ul class="actions">
+                    <li><input type="submit" value="Envoyer" class="alt" /></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
           </div>
         </section>
 
-        <!-- One -->
-        <section id="one">
+        <!-- Section 3 -->
+        <section id="section3">
           <div class="inner">
             <header class="major">
-              <h2>Sed amet aliquam</h2>
+              <h2>Ils nous font confiance</h2>
             </header>
-            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+            <div class="carousel">
+              <div><center><img src="{{ site.baseurl }}/assets/images/logo01.png" alt="Association Libre à Toi" /></center></div>
+              <div><center><img src="{{ site.baseurl }}/assets/images/logo02.png" alt="UNREP" /></center></div>
+              <div><center><img src="{{ site.baseurl }}/assets/images/logo03.png" alt="Plateau Urbain" /></center></div>
+            </div>
           </div>
         </section>
 
-
-
-    {% include footer-landing.html %}
+        <!-- Section 4 -->
+        <section id="section4" class="bg-alt">
+          <div class="inner">
+            <header class="major">
+              <h2>Nos projets</h2>
+            </header>
+        			<div class="row">
+        				<div class="4u 12u$(medium)">
+        					<h3>Nos principes</h3>
+        					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+        				</div>
+        				<div class="4u 12u$(medium)">
+        					<h3>Nos formations</h3>
+        					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+        				</div>
+        				<div class="4u$ 12u$(medium)">
+        					<h3>Nos interventions</h3>
+        					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+        				</div>
+          </div>
+        </section>
+        <section id="section5">
+          <div class="inner">
+            <header>
+              <h2>Nous contacter</h2>
+            </header>
+          </div>
+        </section>
+        {% include contact.html %}
+        {% include footer-landing.html %}
 
 </body>
 

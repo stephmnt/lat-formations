@@ -3,7 +3,7 @@ layout: landing
 title: Accueil
 landing-title: 'OpenCast Formations'
 description: null
-image: null
+image: assets/images/banner.jpg
 author: null
 ---
 

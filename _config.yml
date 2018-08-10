@@ -17,13 +17,14 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # contact form settings
+newseletter_url: https://formspree.io/bonjour@opencast.fr
 form_url: https://formspree.io/stephane@libre-a-toi.org # endpoint URL to receive contact form submissions
 form_email_name: _replyto # value of the "name" attribute in the "email" field
 
 # social settings
 500px_url:
 facebook_url:
-github_url:
+github_url: https://github.com/stephmnt/lat-formations
 gitlab_url: https://git.libre-a-toi.org/lat-formations
 googleplus_url: https://plus.google.com/
 instagram_url: https://instagram.com
