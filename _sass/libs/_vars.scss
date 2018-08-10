@@ -29,10 +29,15 @@
 	);
 
 // Palette.
+
+// bleu 064571
+// AA0014 rouge
+// violet 3F003F
+
 	$palette: (
 		bg:					#fff,// #242943,
-		bg-alt:			#3F003F, //730073, // #242943,	// #2a2f4a,
-		fg:					#3F003F, //730073, // #242943,
+		bg-alt:			#064571, //730073, // #242943,	// #2a2f4a,
+		fg:					#064571, //730073, // #242943,
 		fg-bold:			#fff, //#242943,
 		fg-alt:      #fff,
 		fg-light:			rgba(244,244,255,0.2),
@@ -40,8 +45,8 @@
 		border-alt:    #fff,
 		border-bg:			rgba(2,2,50,0.035),
 		highlight:			#9bf1ff,
-		accent1:			#AA0014, // #6fc3df,
-		accent2:			#064571, //8d82c4,
+		accent1:			#3F003F, // #6fc3df,
+		accent2:			#AA0014, //8d82c4,
 		accent3:			#299700, // ec8d81,
 		accent4:			#e7b788,
 		accent5:			#8ea9e8,

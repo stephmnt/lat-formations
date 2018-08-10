@@ -2,9 +2,9 @@
 title: Opencast
 subtitle: Formations
 email: stephane@libre-a-toi.org
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: .
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: http://www.opencast-formation.com # the base hostname & protocol for your site
 auteur: Stéphane Manet
 adresse: 22, rue Bernard Dimey
 ville: Paris
